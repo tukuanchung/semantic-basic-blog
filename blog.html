@@ -1,0 +1,473 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.4/dist/semantic.min.css">
+    <link rel="stylesheet" href="./static/css/me.css">
+    <link rel="stylesheet" href="./static/css/animate.css">
+    <link rel="stylesheet" href="./static/lib/prism/prism.css">
+    <link rel="stylesheet" href="./static/lib/tocbot/tocbot.css">
+    <link rel="stylesheet" href="./static/css/typo.css">
+</head>
+<body>
+  <!-- 導航-->
+  <nav class="ui inverted attached segment  m-padded-tb-mini">
+    <div class="ui container">
+      <div class="ui inverted secondary stackable menu">
+        <h2 class="ui teal header item">部落格詳情</h2>
+        <a href="#" class="m-item item m-mobile-hide"><i class=" home icon"></i>首頁</a>
+        <a href="#" class="m-item item m-mobile-hide"><i class=" idea icon"></i>分類</a>
+        <a href="#" class="m-item item m-mobile-hide"><i class=" tags icon"></i>標籤</a>
+        <a href="#" class="m-item item m-mobile-hide"><i class=" clone icon"></i>歸檔</a>
+        <a href="#" class="m-item item m-mobile-hide"><i class=" info icon"></i>關於我</a>
+        <div class="right item">
+          <div class="ui icon inverted transparent input">
+            <input type="text" placeholder="Search....">
+            <i class="search link icon"></i>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <a href="#" class="ui menu toggle icon black button m-right-top m-mobile-show">
+      <i class="sidebar icon"></i>
+    </a>
+  </nav>
+  <!-- 中間內容 -->
+  <div id="waypoint" class="m-container m-padded-tb-big animated fadeIn">
+      <div class="ui container">
+        <div class="ui top attached segment">
+          <div class="ui horizontal link list">
+            <div class="item">
+              <img src="https://picsum.photos/id/1019/100/100" alt="" class="ui avatar image">
+              <div class="content"><a href="#" class="header">kctud</a></div>
+            </div>
+            <div class="item">
+              <i class="calendar icon"></i>2020-03-07
+            </div>
+            <div class="item">
+              <i class="eye icon"></i>2222
+            </div>
+          </div>
+        </div>
+        <div class="ui attached segment">
+          <!-- 圖片區 -->
+          <img src="https://picsum.photos/id/1019/800/450" alt="" class="ui fluid rounded image">
+        </div>
+        <div class="ui attached segment">
+          <!-- 內容 -->
+          <div class="ui right aligned basic segment">
+            <div class="ui orange basic label">原創</div>
+          </div>
+          <h2 class="ui center aligned header">關於刻意練習的清單</h2>
+          <br>
+
+          <div id="content" class="typo type-selection js-toc-content m-padded-lr-responsive m-padded-tb-large">
+            <h2 id="section1">一，關於</h2>
+            <pre><code>$ npm install prismjs</code></pre>
+
+            <p>6個字，讓一個家族出了36個皇后駙馬、35個宰相「富不過三代」是許多有錢人家面臨的尷尬。
+但讓人震撼的是，一條神秘的家規居然使得山東瑯琊王氏家族跨越了許多劫難，經受住了各種考驗，從東漢至明清1700多年間，培養出了36個皇后、36個駙馬、35個宰相（《二十四史》中有明確記載的），成為中國歷史上最為顯赫的家族，被稱為「中華第一望族」。
+讓人感到驚奇的是，王氏家規僅有6個字，為「言宜慢，心宜善」。然而，僅僅是「言宜慢」3個字就讓這個王氏始祖王吉在險惡的官場上順利地渡過各種難關，10年間從一名知縣成為朝廷重臣、西漢名臣。此後，王吉就把這6個字定為王氏家規，讓這6個字造福王氏子孫後代。這六字家規也創造出讓人難以置信的奇蹟！
+言宜慢昌邑王劉賀雖然是漢武帝的嫡孫，卻荒淫無度喜怒無常，身邊聚集的全是一些溜鬚拍馬的小人。在這樣險惡的官場中，王吉當然會感到非常憂愁。但幸運的是，他遇到了一個指點他走出迷津的老人，送給了他「言宜慢」3個字。
+</p>
+<p>
+憑藉著這3個字，王吉居然渡過了一次次驚險，在官場上獲得了很好的聲譽，被漢宣帝劉詢任命為諫議大夫，成了朝廷重臣。
+說話，體現著一個人的智慧。特別是年輕人，由於人生經驗不足，經常在說話上吃虧。《論語》中，孔子講了這樣一句話：「侍於君子有三愆：言未及之而言謂之躁，言及之而不言謂之隱，未見顏色而言謂之瞽。」
+「言未及之而言，謂之躁」沒輪到你講話時，你搶著說，這就犯了「躁」的毛病。</p>
+<p>
+孔子一日曾與幾位侍坐的弟子閒談，讓他們談談志向。子路性子急，孔子話音未落，他就洋洋灑灑地講了一大套。可子路萬萬沒想到，他這一通情感流露，卻讓孔子轉身就賞了他一聲冷笑，這熱臉可是大大地貼上了涼屁股。
+這就告訴我們，說話是一門藝術，一定要謹慎。歷史上因為說錯話而得罪人，甚至付出慘痛代價的人不勝枚舉。
+言宜慢，就是告訴我們，說話要經過認真思慮再出口，這樣可以讓我們變得更加謹慎、穩重和冷靜，練就我們成熟大氣的人格；其次就是說話語調要舒緩，這樣聽的人才會感受到尊重、親切，更舒服順耳。
+</p>
+<h2 id="section2">二，我是起源嘻嘻嘻嘻嘻嘻</h2>
+<p>
+心宜善
+
+「心宜善」，是王吉在公元前67年再度經過昌邑時老人送給他的3個字。
+
+原來，隨著官位的升高，王吉出現了利用職權打擊報復政敵的心理，將政敵整得很慘，害得很苦。
+
+比如說，長史趙珞，就因為與王吉政見不和，被王吉惡意彈劾，最後被罷官歸鄉，不久就鬱鬱而終。
+
+在老人的勸諫下，王吉痛改前非，不再整人害人，而是客觀公正地對待每個人，受到了越來越多人的歡迎，在險惡的官場上一生順利平安。而這個送給王吉六字秘訣的老人據稱就是漢武帝時的著名宰相公孫弘。
+
+心宜善，與人為善，必有福報。
+
+《孟子》上說，「君子以仁存心，以禮存心。仁者愛人，有禮者敬人。愛人者，人恆愛之；敬人者，人恆敬之。」心善的人，樂於助人，救人危難。周圍的人都願意與他交往，更願意幫助他。《道德經》上說，天道無親，常與善人。
+
+心宜善，能生髮人的陽氣，我們中國文化有一句名言：「行善最樂」。四個字，大家都知道，平常看了這四個字，大家不大在意，因為把它看成是一個傳統式的教條條文，把它當做鼓勵人的話。
+
+其實不是的，人的心理非常怪，我們做了任何一件不好的事，心理會不安、不快樂，內心不對勁，這個不安、不對勁不是對別人，而是對自己，慢慢臉色神氣都會變壞，精神弄走樣了。
+
+假使你真正無條件絕對地行善，幫助人家，有利於人家，做了一件好事，心境自然非常快樂。那個快樂，不是道理上講得出來的。
+
+言宜慢，心宜善。
+
+為何這條家規僅僅6個字卻有這麼大的神奇力量呢？
+
+年輕時就該「言宜慢」，這樣才能深思熟慮少犯錯誤，從而保護自己謀求發展。而人到壯年，心智成熟、實力雄厚，這時就應該「心宜善」。這樣才能少樹敵手，泱泱有長者風範，受人尊崇。
+
+這六個字看似簡單平淡，卻飽含了古人做人做事的道理，從中我們能看到仁愛之心，進退之道。能做到這六個字，就擁有了成熟大氣的人格。
+　　</p>
+
+<h3 id="section3">這是奇緣的一</h3>
+<h3 id="section4">這是奇緣的二</h3>
+<table class="ui table" summary="Typo.css 的测试平台列表">
+  <thead>
+  <tr>
+    <th>OS/浏览器</th>
+    <th>Firefox</th>
+    <th>Chrome</th>
+    <th>Safari</th>
+    <th>Opera</th>
+    <th>IE9</th>
+    <th>IE8</th>
+    <th>IE7</th>
+    <th>IE6</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>OS X</td>
+    <td>✔</td>
+    <td>✔</td>
+    <td>✔</td>
+    <td>✔</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Win 7</td>
+    <td>✔</td>
+    <td>✔</td>
+    <td>✔</td>
+    <td>✔</td>
+    <td>✔</td>
+    <td>✔</td>
+    <td>✔</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Win XP</td>
+    <td>✔</td>
+    <td>✔</td>
+    <td>✔</td>
+    <td>✔</td>
+    <td>-</td>
+    <td>✔</td>
+    <td>✔</td>
+    <td>✔</td>
+  </tr>
+  <tr>
+    <td>Ubuntu</td>
+    <td>✔</td>
+    <td>✔</td>
+    <td>-</td>
+    <td>✔</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  </tbody>
+</table>
+
+          </div>
+
+          <!--標籤 -->
+          <div class="m-padded-lr-responsive">
+            <div class="ui basic teal left pointing label">方法論</div>
+          </div>
+
+          <!-- 打賞 -->
+          <div class="ui segment basic center aligned">
+            <button id="payButton" class="ui orange basic circular button">贊助</button>
+          </div>
+
+
+          <div class="ui payQR flowing popup transition ">
+            <div class="ui orange basic label">
+              <div class="ui images" style="font-size:inherit !important;">
+                <div class="image">
+                  <img src="./static/images/mmqrcode.png" alt="" class="ui rounded borded image" style="width: 120px">
+                  <div>支付寶</div>
+                </div>
+                <div class="image" style="font-size:inherit !important;">
+                  <img src="./static/images/mmqrcode.png" alt="" class="ui rounded borded image" style="width: 120px">
+                  <div>微信</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+        <div class="ui attached positive message">
+          <!-- 部落格訊息 -->
+          <div class="ui middle aligned grid">
+            <div class="eleven wide column">
+              <ui class="list">
+                <li>作者：肚肚肚</li>
+                <li>發表時間：2000-00-00</li>
+                <li>著作權</li>
+                <li>著作權重要</li>
+              </ui>
+            </div>
+            <div class="five wide column">
+              <img src="./static/images/mmqrcode.png" alt="" class="ui right floated rounded borded image" style="width: 110px">
+
+            </div>
+          </div>
+        </div>
+        <div class="ui bottom attached segment">
+          <!-- 留言區域列表 -->
+          <div class="ui teal segment">
+            <div class="ui comments">
+              <h3 class="ui dividing header">Comments</h3>
+              <div class="comment">
+                <a class="avatar">
+                  <img src="https://picsum.photos/id/1019/100/100">
+                </a>
+                <div class="content">
+                  <a class="author">Matt</a>
+                  <div class="metadata">
+                    <span class="date">Today at 5:42PM</span>
+                  </div>
+                  <div class="text">
+                    How artistic!
+                  </div>
+                  <div class="actions">
+                    <a class="reply">回覆</a>
+                  </div>
+                </div>
+              </div>
+              <div class="comment">
+                <a class="avatar">
+                  <img src="https://picsum.photos/id/1019/100/100">
+                </a>
+                <div class="content">
+                  <a class="author">Elliot Fu</a>
+                  <div class="metadata">
+                    <span class="date">Yesterday at 12:30AM</span>
+                  </div>
+                  <div class="text">
+                    <p>This has been very useful for my research. Thanks as well!</p>
+                  </div>
+                  <div class="actions">
+                    <a class="reply">回覆</a>
+                  </div>
+                </div>
+                <div class="comments">
+                  <div class="comment">
+                    <a class="avatar">
+                      <img src="https://picsum.photos/id/1019/100/100">
+                    </a>
+                    <div class="content">
+                      <a class="author">Jenny Hess</a>
+                      <div class="metadata">
+                        <span class="date">Just now</span>
+                      </div>
+                      <div class="text">
+                        Elliot you are always so right :)
+                      </div>
+                      <div class="actions">
+                        <a class="reply">回覆</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="comment">
+                <a class="avatar">
+                  <img src="https://picsum.photos/id/1019/100/100">
+                </a>
+                <div class="content">
+                  <a class="author">Joe Henderson</a>
+                  <div class="metadata">
+                    <span class="date">5 days ago</span>
+                  </div>
+                  <div class="text">
+                    Dude, this is awesome. Thanks so much
+                  </div>
+                  <div class="actions">
+                    <a class="reply">回覆</a>
+                  </div>
+                </div>
+              </div>
+              <!-- <form class="ui reply form">
+                <div class="field">
+                  <textarea></textarea>
+                </div>
+                <div class="ui blue labeled submit icon button">
+                  <i class="icon edit"></i> Add 回覆
+                </div>
+              </form> -->
+            </div>
+          </div>
+
+          <div class="ui form">
+            <div class="field">
+              <textarea name="content" placeholder="請輸入訊息..."></textarea>
+            </div>
+            <div class="fields">
+              <div class="field m-moblie-width m-margin-bottom-small">
+                <div class="ui left icon input">
+                  <i class="user icon"></i>
+                  <input type="text" name="nickname" placeholder="姓名">
+                </div>
+              </div>
+              <div class="field m-moblie-width m-margin-bottom-small">
+                  <div class="ui left icon input">
+                    <i class="mail icon"></i>
+                    <input type="text" name="mail" placeholder="電子郵件">
+                  </div>
+              </div>
+              <div class="field m-moblie-width m-margin-bottom-small">
+                <button class="ui teal button m-moblie-width"><i class="edit icon"></i>發送</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>  <!-- End 中間內容 -->
+  <div id="toolbar" class="m-fixed m-right-bottom m-padded" style="display:none">
+    <div class="ui vertical icon buttons ">
+        <button class="ui toc teal button">目錄</button>
+        <a href="#comment-container" class="ui  teal button">留言</a>
+        <button class="ui wechat icon button"><i class="weixin icon"></i></button>
+        <a id="toTop-button" class="ui icon button"><i class="chevron up icon"></i></a>
+    </div>
+  </div>
+
+  <div class="ui toc-container flowing popup transition hidden" style="width:200px !important">
+    <ol class="js-toc">
+
+    </ol>
+  </div>
+
+  <div id="qrcode"class="ui wechar-qr flowing popup transition hidden" style="width: 130px !important">
+    <!-- <img src="./static/images/mmqrcode.png" class="ui rounded image" alt="" style="width:120px"> -->
+  </div>
+
+  <br>
+  <br>
+  <!-- 底部footer -->
+  <footer class="ui inverted vertical segment m-padded-tb-massive">
+    <div class="ui center aligned container">
+      <div class="ui inverted divided grid stackable">
+        <div class="three wide column">
+          <div class="ui inverted link list">
+            <div class="item">
+              <img src="./static/images/mmqrcode.png" class="ui rounded image" alt="" style="width:110px">
+            </div>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header m-text-thin m-text-spaced ">最新部落格</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">用戶故事User story</a>
+            <a href="#" class="item">用戶故事User story</a>
+            <a href="#" class="item">用戶故事User story</a>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header m-text-thin m-text-spaced ">聯絡我</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">mail: kctud@tsmc.com</a>
+            <a href="#" class="item">用戶故事User story</a>
+          </div>
+        </div>
+        <div class="seven wide column">
+          <h4 class="ui inverted header m-text-thin m-text-spaced ">KCTUD</h4>
+            <p class="m-text-thin m-text-spaced m-opacity-mini">This is my Blog!</p>
+        </div>
+      </div>
+      <div class="ui inverted section divider"></div>
+      <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright@2020 kctud designed by kctud</p>
+
+    </div>
+
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.4/dist/semantic.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+<script src="./static/lib/prism/prism.js"></script>
+<script src="./static/lib/tocbot/tocbot.min.js"></script>
+<script src="./static/lib/qrcode/qrcode.min.js"></script>
+<script src="./static/lib/waypoints/jquery.waypoints.js"></script>
+
+<script>
+  $('.menu.toggle').click(function(){
+    $('.m-item').toggleClass('m-mobile-hide');
+  });
+
+  $('#payButton')
+  .popup({
+    popup : $('.payQR'),
+    on    : 'click',
+    position: 'bottom center'
+
+  });
+
+  $('#toTop-button').click(function(){
+    $(window).scrollTo(0,500);
+  });
+
+  tocbot.init({
+    // Where to render the table of contents.
+    tocSelector: '.js-toc',
+    // Where to grab the headings to build the table of contents.
+    contentSelector: '.js-toc-content',
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: 'h1, h2, h3',
+    // For headings inside relative or absolute positioned containers within content.
+    hasInnerContainers: true,
+  });
+
+
+    $('.toc.button')
+    .popup({
+      popup : $('.toc-container.popup'),
+      on    : 'click',
+      position: 'left center'
+    });
+
+    $('.wechat')
+    .popup({
+      popup : $('.wechar-qr'),
+      on    : 'hover',
+      position: 'left center'
+
+    });
+
+    var qrcode = new QRCode("qrcode", {
+        text: "http://jindo.dev.naver.com/collie",
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+    });
+
+    var waypoint = new Waypoint({
+      element: document.getElementById('waypoint'),
+      handler: function(direction){
+        console.log('Scrolled to waypoint! ' + direction);
+        if(direction == 'down'){
+          $('#toolbar').show(100);
+        }else{
+          $('#toolbar').hide(500);
+        }
+      }
+    })
+</script>
+</html>
